@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortMatrix", "SortMatrix\SortMatrix.csproj", "{D85EF132-9736-47AB-9681-A3289DA083AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSort", "InterfaceSort\InterfaceSort.csproj", "{8F330AAB-D93C-4972-B5C6-F8FB9E985AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArrayUnitTest", "UnitTestProject1\SortArrayUnitTest.csproj", "{53232030-F137-4476-A5AF-1A944781D49B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D85EF132-9736-47AB-9681-A3289DA083AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85EF132-9736-47AB-9681-A3289DA083AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85EF132-9736-47AB-9681-A3289DA083AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85EF132-9736-47AB-9681-A3289DA083AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F330AAB-D93C-4972-B5C6-F8FB9E985AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F330AAB-D93C-4972-B5C6-F8FB9E985AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F330AAB-D93C-4972-B5C6-F8FB9E985AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F330AAB-D93C-4972-B5C6-F8FB9E985AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53232030-F137-4476-A5AF-1A944781D49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53232030-F137-4476-A5AF-1A944781D49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53232030-F137-4476-A5AF-1A944781D49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53232030-F137-4476-A5AF-1A944781D49B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

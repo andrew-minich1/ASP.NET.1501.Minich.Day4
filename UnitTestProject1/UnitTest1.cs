@@ -57,5 +57,13 @@ namespace UnitTestProject1
             Matrix.Sort(array, new SortByMaxValue(), false);
             Assert.AreEqual(12, array[0].Max());
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void ExeptionTestMethod()
+        {
+            int[][] array = null;
+            Matrix.Sort(array, new SortByMaxValue(), false);
+        }
     }
 }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSort", "InterfaceS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArrayUnitTest", "UnitTestProject1\SortArrayUnitTest.csproj", "{53232030-F137-4476-A5AF-1A944781D49B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopModel", "ToRefactoring\ShopModel\ShopModel.csproj", "{8927D218-DE98-4F50-95C0-6B1C0573D659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{53232030-F137-4476-A5AF-1A944781D49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53232030-F137-4476-A5AF-1A944781D49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53232030-F137-4476-A5AF-1A944781D49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

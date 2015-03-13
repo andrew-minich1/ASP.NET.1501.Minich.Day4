@@ -68,7 +68,7 @@ namespace UnitTestProject1
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void SortByMaxValueTestMethod3333()
+        public void ExeptionTestMethod2()
         {
             int[][] array = new int[4][];
             array[0] = new int[] { 12, 8, 5 };

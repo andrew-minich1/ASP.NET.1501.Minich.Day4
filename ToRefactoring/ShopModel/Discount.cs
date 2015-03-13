@@ -11,6 +11,8 @@ namespace ShopModel
         decimal ConsiderDiscount(decimal totalPrice);
         int DiscountPercent { get; set; }
     }
+
+
     public class Discount : IGetDiscount
     {
         public Discount(int discountPercent)

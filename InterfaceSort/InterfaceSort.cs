@@ -15,6 +15,7 @@ namespace InterfaceSort
     {
         public bool Sort(int[] firstnumber, int[] secondnumber)
         {
+            if (firstnumber == null || secondnumber == null) throw new ArgumentNullException();
             return firstnumber.Sum() > secondnumber.Sum() ? true : false;
         }
     }
@@ -23,6 +24,7 @@ namespace InterfaceSort
     {
         public bool Sort(int[] firstnumber, int[] secondnumber)
         {
+            if (firstnumber == null || secondnumber == null) throw new ArgumentNullException();
             return firstnumber.Max() > secondnumber.Max() ? true : false;
         }
     }
@@ -31,6 +33,7 @@ namespace InterfaceSort
     {
         public bool Sort(int[] firstnumber, int[] secondnumber)
         {
+            if (firstnumber == null || secondnumber == null) throw new ArgumentNullException();
             return firstnumber.Min() > secondnumber.Min() ? true : false;
         }
     }

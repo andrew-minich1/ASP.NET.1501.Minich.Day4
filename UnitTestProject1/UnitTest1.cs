@@ -59,10 +59,22 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NullReferenceException))]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void ExeptionTestMethod()
         {
             int[][] array = null;
+            Matrix.Sort(array, new SortByMaxValue(), false);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void SortByMaxValueTestMethod3333()
+        {
+            int[][] array = new int[4][];
+            array[0] = new int[] { 12, 8, 5 };
+            array[1] = new int[] { 5, 2, 7, 2 };
+            array[2] = null;
+            array[3] = new int[] { 6, 3 };
             Matrix.Sort(array, new SortByMaxValue(), false);
         }
     }

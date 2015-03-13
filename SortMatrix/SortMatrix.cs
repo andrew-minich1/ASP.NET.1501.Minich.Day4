@@ -13,7 +13,7 @@ namespace SortMatrix
         {
             if(array==null || sort==null)
             {
-                throw new NullReferenceException();
+                throw new ArgumentNullException();
             }
             bool swaped;
             for (int i = 0; i < array.Length; i++)
